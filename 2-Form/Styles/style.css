@@ -1,0 +1,59 @@
+body {
+    background-color: #F39494;    
+}
+
+main {
+    background-color: #FFFEFE;
+    font-family: Open Sans, serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #333;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #666;
+}
+
+a {
+    color: #089FE0;
+}
+
+input {
+    background-color: #F5F5F5;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    color: #999;
+    border: none;
+    }
+
+[name="company"] {
+    background-color: #FFF;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #333;
+    }
+
+button {
+    background-color: #089FE0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF;
+    border: none;
+}
+
+span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+}
+
+[type="checkbox"] {
+    background-color: #EEE;
+}
