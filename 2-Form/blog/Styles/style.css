@@ -1,0 +1,51 @@
+body {
+    background-color: #374151;
+}
+
+li > a {
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+input {
+    background-color: #1F2937;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+}
+
+p > a {
+    color: #FFF;
+}
+
+p[class="smallerText"] {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+}
+
+p[class="colorTheory"] {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+}
