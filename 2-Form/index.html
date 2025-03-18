@@ -6,42 +6,46 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Регистрация</h1>
-    <p>Уже есть аккаунт? <a href="#">Войти</a></p>
-    <form action="">
+    <main>
+        <form action="">
+        <div>
+            <h1>Регистрация</h1>
+            <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+        </div>    
         <div>            
             <input type="text"
                    name="company"
                    id="company"
                    placeholder="Моя компания"
             />
-        </div>
-        <div>
-            <input type="text"
-                   name="name"
-                   id="name"
-                   placeholder="Имя"
-                   required
-            />
-            <input type="text"
-                   name="surname"
-                   id="surname"
-                   placeholder="Фамилия"
-                   required
-            />
-        </div>
-        <div>            
+            <div>
+                <input type="text"
+                       name="name"
+                       id="name"
+                       placeholder="Имя"
+                       required
+                />
+                <input type="text"
+                       name="surname"
+                       id="surname"
+                       placeholder="Фамилия"
+                       required
+                />
+            </div>
             <input type="text"
                    name="email"
                    id="email"
                    placeholder="E-mail"
                    required
             />
-        </div>
-        <div>
             <button type="submit" name="registration">Зарегистрироваться</button>
-        </div>                         
-        <span><input type="checkbox" value="agree" required />Я прочитал и принимаю <a href="#">Условия пользования</a></span>        
-    </form>
+            <div>
+                <label for="agreement"></label>
+                <input type="checkbox" name="agreement" id="agreement" required />
+                <span>Я прочитал и принимаю <a href="#">Условия пользования</a></span> 
+            </div>
+        </div>  
+        </form>
+    </main>    
 </body>
 </html>
