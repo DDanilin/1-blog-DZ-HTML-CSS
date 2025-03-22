@@ -1,51 +1,107 @@
 body {
     background-color: #374151;
+    color: #FFF;
+    margin: 0;
 }
 
-li > a {
-    font-weight: 400;
-    font-size: 18px;
+a {
     text-decoration: none;
     color: #FFF;
 }
 
+li {
+    list-style: none;
+}
+
 input {
-    background-color: #1F2937;
-    font-weight: 400;
-    font-size: 16px;
+    background-color: #1F293799;
     color: #FFF;
-}
-
-p {
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFF;
-}
-
-p > a {
-    color: #FFF;
-}
-
-p[class="smallerText"] {
-    font-weight: 400;
-    font-size: 14px;
-    color: #FFF;
-}
-
-p[class="colorTheory"] {
-    font-weight: 400;
-    font-size: 20px;
-    color: #FFF;
-}
+    width: 224px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;.
+    padding: 49px;
+}/*Никак не получается встроить иконку с полем поиска*/
 
 h1 {
+    width: 525px;
+    height: 76px;
     font-weight: 400;
     font-size: 24px;
-    color: #FFF;
-}
+    line-height: 38px;
+    margin: 0px 458px 30px;
+} /*Не понял как последнее слово выровнять под остальными посередине. Так понимаю, что это уже flex?*/
 
 footer {
     font-weight: 400;
     font-size: 16px;
+    opacity: 60%;
+    margin: 0px 607px 77px;
+}
+
+.searchIcon {
+    width: 14px;
+    height: 14px;
+}
+
+.placeholder {
+    width: 47px;
+    height: 19px;    
+}
+
+.logo {
+    margin: 72px 11px 73px 180px;
+}
+
+.logoLink {
+    background-color: #4B5563;
+    border: 1px solid #4B5563;
+    border-radius: 3px;
+    padding: 6px;
+    margin-left: 11px;
+} /*Как в фигме кватрат 35х35 с внутренними отступами 6 и 12 у меня не получилось сделать. Подогнал на глаз, чтобы было похоже по размеру. Буду рад совету*/
+
+.search {
+    background-color: #1F293799;
     color: #FFF;
+    width: 224px;
+    height: 40px;
+    border: 1px solid #1F293799;
+    border-radius: 100px;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 60%;
+    margin: 80px 630px 14px;
+}
+
+.author {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px 586px 28px 640px ;
+}
+
+.developer {
+    font-size: 14px;
+    opacity: 60%;
+}
+
+.heroImage {
+    margin: 0 272px 69px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 367px 208px 365px;
+}
+
+.colorTheory {
+    font-size: 20px;
+}
+
+.textLink {
+    text-decoration: underline;
 }
