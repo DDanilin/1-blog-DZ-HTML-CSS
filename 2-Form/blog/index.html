@@ -7,30 +7,22 @@
     <link rel="stylesheet" href="./Styles/style.css">
 </head>
 <body>
-   <header>
-    <div class="logo">
-      <a href="#" class="logoLink">В</a>
-      <a href="#" class="myBlog">Мой блог</a>
-    </div>         
+  <header>
+    <a class="logo"><span class="logo__img">В</span>Мой блог</a>
     <nav>
-        <ul>            
+        <ul>
             <li><a href="#">HTML и CSS</a></li>
             <li><a href="#">Frontend</a></li>
             <li><a href="#">Backend</a></li>
         </ul>
-        <form action="#">        
-          <div class="search">
-            <img class="searchIcon" src="./images/Поиск.svg" alt="Лупа">                            
-            <input                     
-                     type="search"                                        
-                     id="search" 
-                     name="search"
-                     placeholder="Поиск" />
-                     
-          </div>
-        </form>
     </nav>
-   </header>
+    <form action="#">
+        <label for="search">
+            <img src="../blog/images/Поиск.svg" alt="logo поиска" class="searchLogo"/>
+        </label>
+        <input type="search" id="search" name="search" placeholder="Поиск" />
+    </form>
+</header>
    <main>
     <article>
       <section>
@@ -42,15 +34,13 @@
           </p> 
           <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
         </div>
-        <div>
-          <div class="author">
-            <img src="./images/Наталья Васильева.png" alt="Фото Натальи Васильевой">
-          </div>
-          <div class="author">
+        <div class="author">
+          <div>            
             <p>Наталья Васильева</p>
             <p class="developer">Разработчик</p>
-          </div>
-        </div>        
+            <img src="./images/Наталья Васильева.png" alt="Фото Натальи Васильевой" class="authorPhoto">
+          </div>              
+        </div>                
       </section>      
       <section>
           <img src="./images/Фото монитора.png" alt="Фото монитора" class="heroImage">
@@ -62,6 +52,6 @@
       </section>      
     </article>
   </main>
-   <footer>Все права защищены (c) 2024</footer>
+   <footer class="footer">Все права защищены (c) 2024</footer>
 </body>
 </html>
