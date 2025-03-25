@@ -14,14 +14,14 @@ li {
 }
 
 input {
-    background-color: #1F293799;
+    background-color: #1F2937;
     color: #FFF;
     width: 224px;
     height: 40px;
     border: none;
-    border-radius: 100px;.
+    border-radius: 100px;
     padding: 49px;
-}/*Никак не получается встроить иконку с полем поиска*/
+}
 
 h1 {
     width: 525px;
@@ -30,7 +30,7 @@ h1 {
     font-size: 24px;
     line-height: 38px;
     margin: 0px 458px 30px;
-} /*Не понял как последнее слово выровнять под остальными посередине. Так понимаю, что это уже flex?*/
+} 
 
 footer {
     font-weight: 400;
@@ -59,14 +59,14 @@ footer {
     border-radius: 3px;
     padding: 6px;
     margin-left: 11px;
-} /*Как в фигме кватрат 35х35 с внутренними отступами 6 и 12 у меня не получилось сделать. Подогнал на глаз, чтобы было похоже по размеру. Буду рад совету*/
+}
 
 .search {
-    background-color: #1F293799;
+    background-color: #1F2937;
     color: #FFF;
     width: 224px;
     height: 40px;
-    border: 1px solid #1F293799;
+    border: 1px solid #1F2937;
     border-radius: 100px;
 }
 
